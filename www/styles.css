@@ -1,0 +1,109 @@
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fefefe; /* Light background */
+  color: #333; /* Standard text color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+.main-header {
+  background-color: white; /* White background */
+  height: auto; /* Let height adjust based on content */
+  border-bottom: 0.1 px solid #ddd; /* Add a subtle bottom border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+}
+
+/* Styling for the dashboard header title */
+.custom-title {
+  color: White; /* White text color */
+  font-size: 24px; /* Visible title size */
+  font-family: 'Arial', cursive, sans-serif;
+  margin: 0;
+}
+
+/* Sidebar */
+.main-sidebar {
+  background-color: #f0f0f0; /* Light gray sidebar */
+}
+
+/* Sidebar Menu Item */
+.sidebar-menu a {
+  color: #333; /* Text color */
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Sidebar Menu Item Hover Effect */
+.sidebar-menu a:hover {
+  background-color: #d71e00; /* Red hover effect */
+  color: white;
+}
+
+/* Sidebar Active Tab */
+.sidebar-menu a.active {
+  background-color: #d71e00;
+  color: white;
+  font-weight: bold;
+}
+
+/* Styling for the logo */
+#logo {
+  position: fixed!important;         /* Fix the position relative to the window */
+  bottom: 20px!important;            /* Position 10px from the bottom */
+  right: 20px!important;             /* Position 10px from the right */
+  width: 100px !important;             /* Set the width to 50px */
+}
+
+/* Container to position the button */
+.flashy-button-container {
+  display: flex;
+  justify-content: flex-end;  /* Align to the right */
+  margin-top: 20px;           /* Add some space above the button */
+}
+
+/* Flashy button styling */
+#filterButton {
+  background-color: white;
+  color: black;
+  border-color: black;
+  font-weight: bold;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 25px;  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+/* Flashy button hover effect */
+#filterButton:hover {
+  background-color: white;   /* Darker blue on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Larger shadow on hover */
+  transform: scale(1.05);  /* Slightly enlarge the button on hover */
+}
+
+.snazzy-download-button .btn {
+  background-color: #f0f0f0;       /* Sidebar background color */
+  color: black;                    /* Black text for better contrast */
+  font-weight: bold;               /* Bold text */
+  border-radius: 15px;             /* Slightly smaller rounded corners */
+  padding: 5px 10px;               /* Smaller padding for a compact button */
+  border: 2px solid #f0f0f0;       /* Match border to background color */
+  transition: all 0.3s ease-in-out;/* Smooth transition effect */
+  font-size: 12px;                 /* Reduce font size */
+}
+
+.snazzy-download-button .btn:hover {
+  background-color: #e0e0e0;       /* Slightly darker color on hover */
+  border-color: #e0e0e0;           /* Change border on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transform: scale(1.05);          /* Slightly enlarge the button */
+}
+
+.snazzy-download-button .btn:focus {
+  outline: none;                   /* Remove the outline on focus */
+}
